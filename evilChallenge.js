@@ -2,9 +2,10 @@ let floors = 4; //how many floors
 
 buildTower(floors); //function call
 
-//print the return here using iteration method :D
+//print the return using iteration method 😁
 
 /** 
+ * 😈 Introduce to you The evil javascript tower 😈
 function recieves number of floors to build a tower
 the function returns an array as the following
 
