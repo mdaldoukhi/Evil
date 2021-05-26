@@ -1,4 +1,4 @@
-let floors = 4; //how many floors
+let floors = 6; //how many floors
 
 buildTower(floors); //function call
 
@@ -30,4 +30,11 @@ e.g.
   '***********'
 ]
 */
-function buildTower(nFloors) {}
+function buildTower(nFloors) {
+  let str = '* ';
+  for (let index = 1; index <= nFloors; index++) {
+    for (let j = 0; j < nFloors-(nFloors-1); j++) {
+      console.log("  ".repeat(nFloors-index)+str.repeat(2*index-1))
+    } 
+  }  
+}
